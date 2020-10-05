@@ -1,0 +1,48 @@
+.exp {
+    height: 220px;
+    width: 250px;
+}
+
+
+
+.footer-list {
+    display: inline-block;
+    margin: 10px;
+}
+
+i {
+    color: black;
+    transition: top ease 0.5s;
+}
+
+.footer-icon {
+    display: inline-block;
+    margin: 5px;
+}
+
+i:hover {
+    cursor: pointer;
+    top: -10px;
+}
+
+.logo-img {
+    height: 59px;
+    margin-left: 30px;
+}
+
+.table-img {
+    height: 150px;
+    width: 150px;
+}
+    
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/920fff83c0.js" crossorigin="anonymous"></script>
+    <title>Coffee Shop</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav>
+        <div class="nav-wrapper grey lighten-3">
+          <a href="" class="brand-logo"><img class="logo-img" src="img/logo.png" alt=""></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="black-text" href="index.html">Home</a></li>
+            <li><a class="black-text"href="shop.html">Shop</a></li>
+            <li><a class="black-text" href="collapsible.html">Contact Us</a></li>
+            <li><a href="" class="black-text"><i class="fas fa-shopping-cart"></i>(0)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      
+   <!--Slider Hero-->  
+      
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/slider2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Seasonal Pastries and Drinks</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider1.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Catering Services</h3>
+        </div>
+      </li>
+      <li>
+        <img src="img/slider3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Specialty Cakes</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script>
+        $(document).ready(function(){
+    $('.slider').slider();
+  });      
+  </script>
+
+<div class="container">
+<div class="section">
+  <div class="row">
+    <div class="col s12">
+      <h5 class="center-align">Fresh Roasted Coffees</h5>
+      <p class="center-align">Our single-origin batch fresh roasted coffees shipped conveniently to your door.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s3">
+      <img class="responsive-img" src="img/product1.jpg" alt="">
+      <h6 class="center-align">Signature Dark Roast</h6>
+      <p class="center-align">$15</p>
+    </div>
+    <div class="col s3">
+      <img class="responsive-img" src="img/product1.jpg" alt="">
+      <h6 class="center-align">Signature Medium Roast</h6>
+      <p class="center-align">$15</p>
+    </div>
+    <div class="col s3">
+      <img class="responsive-img" src="img/product1.jpg" alt="">
+      <h6 class="center-align">Signature Brazilian Roast</h6>
+      <p class="center-align">$15</p>
+    </div>
+    <div class="col s3">
+      <img class="responsive-img" src="img/product1.jpg" alt="">
+      <h6 class="center-align">Signature Ethiopian Roast</h6>
+      <p class="center-align">$15</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s12">
+        <h5 class="center-align">Coffee Making Tools</h5>
+        <p class="center-align">We also offer tools to help you brew your perfect cup at home.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s3">
+        <img class="responsive-img materialboxed" src="img/product2.jpg" alt="">
+        <h6 class="center-align">Cold Brew Maker</h6>
+        <p class="center-align price1">$35</p>            
+      </div>
+      <div class="col s3">
+        <img class="responsive-img materialboxed" src="img/product3.jpg" alt="">
+        <h6 class="center-align">Electric Water Kettle</h6>
+        <p class="center-align">$20</p>       
+      </div>
+      <div class="col s3">
+        <img class="responsive-img materialboxed" src="img/product4.jpg" alt="">
+        <h6 class="center-align">Coffee Dripper Glass</h6>
+        <p class="center-align">$22</p>  
+      </div>
+      <div class="col s3">
+        <img class="responsive-img materialboxed" src="img/product5.jpg" alt="">
+        <h6 class="center-align">Digital Gooseneck Kettle</h6>
+        <p class="center-align">$90</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h5 class="center-align">The Experience</h5>
+    </div>
+    <div class="col s4">
+      <img src="img/mission1.jpg" alt="" class="responsive-img exp materialboxed">
+      <h5 class="left-align">Our Coffees</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Vero omnis ipsam tempora quam ratione ut dolorum expedita sit maiores illo.</p>
+    </div>
+    <div class="col s4">
+      <img src="img/mission2.jpg" alt="" class="responsive-img exp materialboxed">
+      <div class="row">
+      <h5 class="left-align">Our Store</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus consectetur 
+        reprehenderit voluptates natus culpa eveniet, distinctio vel similique quis accusantium.</p>
+      </div>
+    </div>
+    <div class="col s4">
+      <img src="img/mission3.jpg" alt="" class="responsive-img exp materialboxed">
+      <h5 class="left-align">Our Community</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quibusdam in tenetur, 
+        est ea dicta maxime ex error! Dolor, sunt.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+        
+</script>
+
+<div class="divider"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s6">
+      <h5 class="left-align">Our Philosophy</h5>
+      <p class="left-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
+        non magnam aspernatur et natus rerum itaque saepe, adipisci fugiat laborum doloribus 
+        fugit illum aut dicta, perferendis nisi dolorem consectetur. Debitis.</p>
+      <p class="left-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
+          non magnam aspernatur et natus rerum itaque saepe, adipisci fugiat laborum doloribus 
+          fugit illum aut dicta, perferendis nisi dolorem consectetur. Debitis.</p>
+      <p class="left-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
+          non magnam aspernatur et natus rerum itaque saepe, adipisci fugiat laborum doloribus 
+          fugit illum aut dicta, perferendis nisi dolorem consectetur. Debitis.</p>     
+    </div>
+      <div class="col s6">
+        <img src="img/store.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <h5 class="center-align">Sign Up Here for Updates and Promotions!</h5>
+  <form class="row">
+    <div class="input-field col s6">
+      <input type="text" id="first-name" class="validate" data-length="10" >
+      <label for="first-name">First Name</label>
+      <span class="helper-text" data-error='Name must be between 2 and 15 characters'
+      ></span>
+    </div>
+    <div class="input-field col s6">
+      <input type="text" id="last-name" class="validate" data-length="10">
+      <label for="last-name">Last Name</label>
+      <span class="helper-text" data-error='Name must be between 2 and 15 characters'
+      ></span>  
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+      <input type="text" id="email" class="validate">
+      <label for="email">Email Address</label>
+      <span class="helper-text" data-error='Please enter a valid email address'
+      ></span>     
+    </div>
+    <div class="input-field col s6">
+      <input type="text" id="phone" class="validate">
+      <label for="phone">Phone Number</label>
+      <span class="helper-text" data-error='Please enter a valid phone number'
+      ></span>    
+    </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+    <p class="center-align"><button class="btn-large waves-effect waves-light" id="btn" type="submit" name="action">Submit</button></p>         
+  </div>
+  </div>  
+  </form>
+</div>
+
+
+<footer class="page-footer grey lighten-3">
+  <div class="container">
+    <div class="row">
+      <div class="col s6">
+        <ul class="left-align">
+          <li class="black-text left-align footer-list">Search</li>
+          <li class="black-text left-align footer-list">Privacy Policy</li>
+          <li class="black-text left-align footer-list">Terms of Use</li>
+          <li class="black-text left-align footer-list">Refund Policy</li>
+        </ul>
+      </div>
+      <div class="col s6">
+        <ul>
+        <li class="right-align black-text">Created by Paris Diaz</li>
+      </ul>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <ul class="right-align">
+          <li class="footer-icon right-align"><i class="fab fa-facebook-square fa-2x"></i></li>
+          <li class="footer-icon"><i class="fab fa-instagram fa-2x"></i></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        <ul class="left-align">
+          <li class="footer-icon"><i class="fab fa-cc-visa fa-2x"></i></li>
+          <li class="footer-icon"><i class="fab fa-cc-discover fa-2x"></i></li> 
+          <li class="footer-icon"><i class="fab fa-cc-apple-pay fa-2x"></i></li>
+          <li class="footer-icon"><i class="fab fa-cc-amex fa-2x"></i></li>
+          <li class="footer-icon"><i class="fab fa-cc-mastercard fa-2x"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

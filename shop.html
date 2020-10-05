@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/920fff83c0.js" crossorigin="anonymous"></script>
+    <title>Coffee Shop</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav>
+        <div class="nav-wrapper grey lighten-3">
+          <a href="" class="brand-logo"><img class="logo-img" src="img/logo.png" alt=""></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="black-text" href="index.html">Home</a></li>
+            <li><a class="black-text"href="badges.html">Our Menu</a></li>
+            <li><a class="black-text" href="collapsible.html">Contact Us</a></li>
+            <li><a href="" class="black-text"><i class="fas fa-shopping-cart"></i>(0)</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12">
+              <h5 class="center-align">Coffee Making Tools</h5>
+              <p class="center-align">We also offer tools to help you brew your perfect cup at home.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s3">
+              <img class="responsive-img materialboxed" src="img/product2.jpg" alt="">
+              <h6 id='item1' class="center-align">Cold Brew Maker</h6>
+              <p id="single" class="center-align">$35</p> 
+              <p class='center-align '><a id="btn" class="waves-effect waves-light btn-small add">Add to Cart</a></p>           
+            </div>
+            <div class="col s3">
+              <img class="responsive-img materialboxed" src="img/product3.jpg" alt="">
+              <h6 class="center-align">Electric Water Kettle</h6>
+              <p class="center-align">$20</p>
+              <p class='center-align '><a id="btn" class="waves-effect waves-light btn-small add">Add to Cart</a></p>        
+            </div>
+            <div class="col s3">
+              <img class="responsive-img materialboxed" src="img/product4.jpg" alt="">
+              <h6 class="center-align">Coffee Dripper Glass</h6>
+              <p class="center-align">$22</p>  
+              <p class='center-align '><a id="btn" class="waves-effect waves-light btn-small add">Add to Cart</a></p> 
+            </div>
+            <div class="col s3">
+              <img class="responsive-img materialboxed" src="img/product5.jpg" alt="">
+              <h6 class="center-align">Digital Gooseneck Kettle</h6>
+              <p class="center-align">$90</p>
+              <p class='center-align '><a id="btn" class="waves-effect waves-light btn-small add">Add to Cart</a></p> 
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!--Shop Content-->
+      
+      <div class="container">
+          <div class="row">
+              <div class="col s12">
+                  <h5 class="center-align">Your Cart</h5>
+              </div>
+          </div>  
+          <table>
+              <thead>
+                  <tr>
+                      <th>Item</th>
+                      <th>Description</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th></th>
+                      <th>Total</th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+                      <td id="item"></td>  
+                      <td class="description">
+                          <p>asd</p>
+                          <p></p>
+                    </td>
+                    <td class="price"></td>
+                    <td class="quantity">
+                        <div class="input-field col s3">
+                        <select name="" id="">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>                        
+                        </select>
+                    </div>
+                    </td>
+                    <td><a id="remove" class="waves-effect waves-light btn-small">remove</a></td>
+                    <td class="total"></td>
+                  </tr>
+              </tbody>
+          </table>
+          <h6 class="right-align">Total</h6>    
+          <h6 class="right-align">$</h6>
+          <p class='right-align'>Shipping and taxes calculated at checkout</p>
+          <p class="right-align"><a class="waves-effect waves-light btn-small">checkout</a></p>
+          <div class="row">
+              <form action="" class="sol s12">
+                  <div class="row">
+                      <div class="input-field col s6">
+                          <textarea name="" id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Leave a note with your order</label>
+                      </div>
+                  </div>
+              </form>
+          </div>    
+      </div>
+
+      <script>
+           $(document).ready(function(){
+    $('select').formSelect();
+  });
+      </script>
+
+
+
+
+
+
+
+
+
+       <footer class="page-footer grey lighten-3">
+        <div class="container">
+          <div class="row">
+            <div class="col s6">
+              <ul class="left-align">
+                <li class="black-text left-align footer-list">Search</li>
+                <li class="black-text left-align footer-list">Privacy Policy</li>
+                <li class="black-text left-align footer-list">Terms of Use</li>
+                <li class="black-text left-align footer-list">Refund Policy</li>
+              </ul>
+            </div>
+            <div class="col s6">
+              <ul>
+              <li class="right-align black-text">Created by Paris Diaz</li>
+            </ul>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <ul class="right-align">
+                <li class="footer-icon right-align"><i class="fab fa-facebook-square fa-2x"></i></li>
+                <li class="footer-icon"><i class="fab fa-instagram fa-2x"></i></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6">
+              <ul class="left-align">
+                <li class="footer-icon"><i class="fab fa-cc-visa fa-2x"></i></li>
+                <li class="footer-icon"><i class="fab fa-cc-discover fa-2x"></i></li> 
+                <li class="footer-icon"><i class="fab fa-cc-apple-pay fa-2x"></i></li>
+                <li class="footer-icon"><i class="fab fa-cc-amex fa-2x"></i></li>
+                <li class="footer-icon"><i class="fab fa-cc-mastercard fa-2x"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<script src="shop.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
+      
