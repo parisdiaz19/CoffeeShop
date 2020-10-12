@@ -4,8 +4,8 @@ const single = document.getElementById('single').innerHTML;
 const item = document.getElementById('item');
 const item1 = document.getElementById('item1').innerHTML;
 const price = document.querySelector('.price');
-const price1 = document.getElementById('price1').innerHTML;
 document.getElementById('remove').addEventListener('click', removeAll);
+const option = document.getElementsByTagName('option').innerHTML;
 
 function addCart(){
     const btn = document.getElementById('btn');
@@ -17,5 +17,14 @@ function addCart(){
 
 function removeAll(){
     const removeBtn = document.getElementById('remove');
-    alert('asd');
+    total.innerHTML = "";
+    item.innerHTML = "";
+    price.innerHTML = "";
+    
+}
+
+function updateTotal() {
+    if(option === 2){
+        total.innerHTML = total.innerHTML * option;
+    }
 }

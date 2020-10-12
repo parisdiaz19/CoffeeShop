@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/920fff83c0.js" crossorigin="anonymous"></script>
+    <title>Coffee Shop</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav>
+        <div class="nav-wrapper grey lighten-3">
+          <a href="#!" class="brand-logo"><img class="logo-img" src="img/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="black-text" href="index.html">Home</a></li>
+            <li><a class="black-text" href="menu.html">Our Menu</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="black-text" href="index.html">Home</a></li>
+        <li><a class="black-text"href="shop.html">Shop</a></li>
+        <li><a class="black-text" href="collapsible.html">Contact Us</a></li>
+      </ul>
+
+      <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+
+
+
+
+
+<!-- Menu Content-->
+<div class="container">
+    <h4 class="center-align">Our Menu</h4>
+    <div class="row">
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC8zYzYwMzk1OC00MTY4LTRjM2MtODU3NS05ZjU1N2FjZjViMGUuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Brewed Coffee/Decaf</p>
+                    <p>$2.50</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC9mODRhYTAzMS0wM2UwLTRjMTgtYTI4YS0zNzRjOGEzZTI4ZTkuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Cold Brew Iced Coffee</p>
+                    <p>$4.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC9mODRhYTAzMS0wM2UwLTRjMTgtYTI4YS0zNzRjOGEzZTI4ZTkuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Cold Brew Iced Tea</p>
+                    <p>$4.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <h5 class="center-align">Espresso</h5>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC85YzE5NWEzMS03ZTg3LTQwNjYtODFkOS01NzVhNGE1Zjc5MTQuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Espresso Double</p>
+                    <p>$3.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC83NTU1ODFhYS1lNGM3LTRhNjYtOGZlZS0yNzMwNjRkNDhhODEuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Americano</p>
+                    <p>$3.50</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC83ZTIwY2M2NS1hNzJlLTQ0MmQtYTNiNy0zYmRhNDFlMmRlOGMuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Cappuccino</p>
+                    <p>$4.40</p>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC82ZDYxOWFmNS0zNWM2LTQ1MWEtYThlZC0yZmUwZmEyNDM5NmUuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Latte</p>
+                    <p>$4.60</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC84OTlmN2RjNS0yYjNkLTRkNzEtYjNiOS05OWYzMjE2Njg3OWEuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Matcha Latte</p>
+                    <p>$5.50</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s4 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://cn-geo1.uber.com/image-proc/resize/eats/format=webp/width=550/height=440/quality=70/srcb64=aHR0cHM6Ly9kMXJhbHNvZ25qbmczNy5jbG91ZGZyb250Lm5ldC82NDBiMmIxYy0xY2M4LTRlMjAtOGYwYi0yMDkxMWE1MjcwNDQuanBlZw==" alt="">
+                </div>
+                <div class="card-content">
+                    <p>Chai Latte</p>
+                    <p>$5.50</p>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+
+<footer class="page-footer grey lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+          <ul class="left-align">
+            <li class="black-text left-align footer-list">Search</li>
+            <li class="black-text left-align footer-list">Privacy Policy</li>
+            <li class="black-text left-align footer-list">Terms of Use</li>
+            <li class="black-text left-align footer-list">Refund Policy</li>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul>
+          <li class="right-align black-text">Created by Paris Diaz</li>
+        </ul>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <ul class="right-align">
+            <li class="footer-icon right-align"><i class="fab fa-facebook-square fa-2x"></i></li>
+            <li class="footer-icon"><i class="fab fa-instagram fa-2x"></i></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <ul class="left-align">
+            <li class="footer-icon"><i class="fab fa-cc-visa fa-2x"></i></li>
+            <li class="footer-icon"><i class="fab fa-cc-discover fa-2x"></i></li> 
+            <li class="footer-icon"><i class="fab fa-cc-apple-pay fa-2x"></i></li>
+            <li class="footer-icon"><i class="fab fa-cc-amex fa-2x"></i></li>
+            <li class="footer-icon"><i class="fab fa-cc-mastercard fa-2x"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+   
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+  </html>
